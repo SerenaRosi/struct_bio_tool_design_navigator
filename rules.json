@@ -1,0 +1,16 @@
+[
+  {
+    "id": "R1",
+    "title": "Design for interoperability, not isolation",
+    "description": "Structural bioinformatics tools rarely operate in isolation... (shortened ok)",
+    "imagine_if": "Two tools exchange structure files without errors but interpret residue numbering differently...",
+    "questions": [
+      "Does this tool use community-accepted structural formats and conventions?",
+      "Are residue, atom, chain, and ligand identifiers preserved consistently?",
+      "Would another tool interpret the output in the same way without custom fixes?",
+      "Are assumptions about data representation explicit and documented?",
+      "Could a mismatch produce plausible but incorrect results without raising errors?"
+    ],
+    "keywords": ["pdb", "mmcif", "residue numbering", "formats", "identifiers", "chain id"]
+  }
+]

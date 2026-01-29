@@ -1,0 +1,40 @@
+{
+  "tool": {
+    "name": "DockingPie",
+    "purpose": "It is a pymol plugin for molecular docking",
+    "users": "everyone, it is designed to be user friendly",
+    "inputs_outputs": "It is designed to be used within PyMOL, so it is easy to just load any format the user prefer, and DOckingPie does the rest",
+    "scale": "single to dozens",
+    "interaction": "plugin",
+    "ai": "no"
+  },
+  "selected_rules": [
+    {
+      "id": "R1",
+      "title": "Design for interoperability, not isolation",
+      "match_score": 0.035591590456063006
+    }
+  ],
+  "answers": {
+    "R1": {
+      "Does this tool use community-accepted structural formats and conventions?": "yes",
+      "Are residue, atom, chain, and ligand identifiers preserved consistently?": "yes",
+      "Would another tool interpret the output in the same way without custom fixes?": "yes",
+      "Are assumptions about data representation explicit and documented?": "yes",
+      "Could a mismatch produce plausible but incorrect results without raising errors?": "yes"
+    }
+  },
+  "checklist": [
+    {
+      "rule_id": "R1",
+      "rule_title": "Design for interoperability, not isolation",
+      "items": [
+        "Does this tool use community-accepted structural formats and conventions?",
+        "Are residue, atom, chain, and ligand identifiers preserved consistently?",
+        "Would another tool interpret the output in the same way without custom fixes?",
+        "Are assumptions about data representation explicit and documented?",
+        "Could a mismatch produce plausible but incorrect results without raising errors?"
+      ]
+    }
+  ]
+}
